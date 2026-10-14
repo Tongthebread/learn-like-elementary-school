@@ -4,6 +4,8 @@ Read this reference when building exercises, hints, answer keys, or adaptive fol
 
 ## Choose exercises by knowledge type
 
+For a short lesson, use a compact diagnostic set. For exam preparation, build a larger bank in batches. Each batch should introduce meaningful variation in concepts, representations, reasoning, or context rather than cosmetic changes.
+
 ### Conceptual material
 
 Move from recognizing a concept to distinguishing it, explaining cause and effect, applying it to a new case, and evaluating a claim. Good hard questions introduce a plausible distractor or require a justified comparison; they do not rely on obscure trivia.
@@ -59,3 +61,25 @@ Each solution should include:
 - Missing prerequisite: teach it directly, then retry a simpler version.
 
 Do not advance solely because the final answer matches.
+
+## Scale practice without becoming repetitive
+
+When the learner requests more exercises, distribute questions across a matrix of:
+
+- topics from the source material;
+- difficulty levels;
+- recall, explanation, application, analysis, and transfer;
+- guided versus independent work; and
+- familiar versus unfamiliar contexts.
+
+Avoid generating all questions at once when that would overwhelm the learner. Offer or deliver batches such as 5–10 focused questions, check the answers, and use the results to select the next batch.
+
+For each expanded set, label:
+
+- **Topic**
+- **Difficulty**: foundational, standard, advanced, or challenge
+- **Skill tested**
+- **Expected time**
+- **Prerequisites**, only when they are not obvious
+
+Include cumulative questions from earlier material so success reflects retention rather than immediate imitation.

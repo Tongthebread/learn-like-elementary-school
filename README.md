@@ -47,6 +47,18 @@ Make a mock exam from this material, with hints and a separate worked answer key
 - Worked examples and common mistakes
 - Recall, explanation, application, problem-solving, and challenge exercises
 - Progressive hints, reasoned solutions, and adaptive follow-up practice
+- Larger, varied exercise banks delivered in manageable batches
+- Exam coverage maps, mock exams, grading rubrics, and targeted retry sets
+
+## Exam preparation
+
+For a deeper course review, provide the study materials and—when available—the syllabus, learning objectives, past exams, permitted formula sheet, and exam format. Then ask:
+
+```text
+Use $learn-like-elementary-school to prepare me thoroughly for this exam. Build a coverage map, diagnose me across every major topic, teach weak areas in depth, and then give me mixed practice and a timed mock exam. Track my mistakes and do not mark a topic exam-ready without evidence from my answers.
+```
+
+The skill will work in rounds, so students receive substantial practice without being overwhelmed by one enormous response.
 
 ## Design principle
 
