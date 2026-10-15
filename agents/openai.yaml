@@ -1,7 +1,7 @@
 interface:
   display_name: "Learn Like Elementary School"
-  short_description: "Turn college material into clear, graded practice"
-  default_prompt: "Use $learn-like-elementary-school to teach me this study material and give me practice from easy to hard."
+  short_description: "Turn college material into maps and graded practice"
+  default_prompt: "Use $learn-like-elementary-school to map and teach me this study material, then give me practice from easy to hard."
 
 policy:
   allow_implicit_invocation: true

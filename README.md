@@ -42,6 +42,7 @@ Make a mock exam from this material, with hints and a separate worked answer key
 ## What it produces
 
 - A dependency-ordered roadmap of the material
+- Knowledge maps, prerequisite diagrams, process flows, and concept comparisons
 - Plain-language explanations that preserve college-level precision
 - Term cards with simple and formal meanings
 - Worked examples and common mistakes
@@ -59,6 +60,16 @@ Use $learn-like-elementary-school to prepare me thoroughly for this exam. Build 
 ```
 
 The skill will work in rounds, so students receive substantial practice without being overwhelmed by one enormous response.
+
+## Knowledge diagrams
+
+The skill can connect ideas visually using concept maps, prerequisite maps, process flows, cause-and-effect maps, comparison diagrams, and system diagrams. It uses portable Mermaid when supported and provides a readable text explanation or fallback.
+
+```text
+Use $learn-like-elementary-school to explain this chapter and create a diagram showing how the major concepts depend on and relate to one another.
+```
+
+Diagrams can also become exercises: learners can fill missing concepts, label relationships, reconstruct a map from memory, or find an incorrect connection.
 
 ## Design principle
 
@@ -112,6 +123,7 @@ The skill will work in rounds, so students receive substantial practice without 
 ## Skill 可以生成什么
 
 - 按知识依赖关系排列的学习路线
+- 知识关系图、先修知识图、流程图和概念对比图
 - 简单易懂但保持大学课程严谨度的讲解
 - 同时包含通俗解释和正式定义的术语卡片
 - 分步骤示例和常见错误分析
@@ -129,3 +141,13 @@ The skill will work in rounds, so students receive substantial practice without 
 ```
 
 Skill 会分轮进行复习：先诊断，再补弱项，然后进行混合练习、模拟考试和针对性重练。这样既能提供足够多的练习，也不会一次给学生过多内容。
+
+## 知识关系图
+
+Skill 可以使用概念图、先修知识图、流程图、因果关系图、对比图和系统关系图，把分散的知识连接起来。在支持 Mermaid 的界面中会优先生成 Mermaid 图；同时也会提供普通文字说明或纯文本版本，确保图表无法渲染时仍然可以学习。
+
+```text
+使用 $learn-like-elementary-school 讲解这一章，并画一张知识关系图，展示主要概念之间的依赖关系和联系。
+```
+
+知识图也可以用于练习，例如填写缺失概念、补充关系标签、根据记忆重建图表，或者找出图中错误的连接。

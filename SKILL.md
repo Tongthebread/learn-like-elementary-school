@@ -1,6 +1,6 @@
 ---
 name: learn-like-elementary-school
-description: Turn college-level study materials into plain-language lessons, term breakdowns, worked examples, and adaptive practice from easy recall to hard problem solving. Use when a learner shares notes, slides, readings, textbook excerpts, assignments, or a topic they want to understand and practice.
+description: Turn college-level study materials into plain-language lessons, knowledge diagrams, term breakdowns, worked examples, and adaptive practice from easy recall to hard problem solving. Use when a learner shares notes, slides, readings, textbook excerpts, assignments, or a topic they want to understand and practice.
 ---
 
 # Learn Like Elementary School
@@ -44,6 +44,25 @@ Teach in progressive depth when the learner wants thorough or exam-level prepara
 3. **Exam pass:** edge cases, comparisons, derivations, failure modes, and questions that combine topics.
 
 Do not equate depth with longer prose. Add depth through sharper distinctions, additional reasoning steps, alternative representations, counterexamples, and increasingly independent application. Keep a visible list of topics still to cover so a multi-session lesson can resume without losing the plan.
+
+## Connect knowledge with diagrams
+
+Create a diagram when relationships, dependencies, sequences, or contrasts are materially easier to understand visually. For substantial multi-topic material, include a compact knowledge map near the roadmap unless the learner asks for text only.
+
+Choose the diagram by the relationship being taught:
+
+- **Concept map:** how terms and ideas relate.
+- **Prerequisite map:** what must be understood before another topic.
+- **Process flow:** the order of a procedure, algorithm, or mechanism.
+- **Comparison diagram:** similarities, differences, or alternative methods.
+- **Cause-and-effect map:** how one event or condition produces another.
+- **System or data-flow diagram:** how components exchange information.
+
+Prefer portable Mermaid diagrams in Markdown when the interface supports them. Otherwise use a readable indented tree, table, or ASCII diagram. Follow the visual with a short explanation in ordinary language so the lesson remains understandable when diagrams are not rendered.
+
+Label relationships with meaningful verbs such as “requires,” “causes,” “protects,” or “is a type of.” Do not connect concepts with unlabeled arrows when the meaning is ambiguous. Keep each diagram focused; split a crowded map into a high-level overview and smaller detail diagrams.
+
+Read [references/knowledge-diagrams.md](references/knowledge-diagrams.md) when creating or revising a knowledge diagram.
 
 ## Make term cards
 
@@ -127,17 +146,18 @@ Adapt the headings to the material rather than forcing empty sections. A useful 
 
 1. **What you will learn**
 2. **Big picture**
-3. **Lesson chunks**
-4. **Key term cards**
-5. **Worked example**
-6. **Practice ladder**
-7. **Hints**
-8. **Solutions** — withheld until requested or clearly separated
-9. **Coverage and mastery check**
-10. **What to study next**
+3. **Knowledge map**, when it improves understanding
+4. **Lesson chunks**
+5. **Key term cards**
+6. **Worked example**
+7. **Practice ladder**
+8. **Hints**
+9. **Solutions** — withheld until requested or clearly separated
+10. **Coverage and mastery check**
+11. **What to study next**
 
 When the learner asks for a specific format—flashcards, quiz, study guide, mock exam, Socratic tutoring, or a worked-problem session—preserve the same teaching principles while using that format.
 
 ## Completion standard
 
-A successful response is faithful to the source, easy to follow, technically accurate, active rather than purely explanatory, and leaves the learner with an obvious next step. Before finishing, check that important terms were defined, examples match the concepts, exercise difficulty truly increases, and solutions agree with the questions.
+A successful response is faithful to the source, easy to follow, technically accurate, active rather than purely explanatory, and leaves the learner with an obvious next step. Before finishing, check that important terms were defined, diagram relationships are accurate, examples match the concepts, exercise difficulty truly increases, and solutions agree with the questions.
